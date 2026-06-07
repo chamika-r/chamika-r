@@ -65,19 +65,17 @@ Tools        Git · Docker · VS Code
 
 <div align="center">
 
-## 📊 GitHub Stats
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/chamika-r)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=dark&hide_border=true)](https://github.com/chamika-r)
-
+- 🔨 **3 security projects** built from scratch
+- 🐍 **Python** is my primary language
+- 📅 Active contributor — check my repos below
+- 🌱 Currently expanding into network security and web app security
 </div>
 
 ---
 
 ## 📈 TryHackMe Progress
 
-[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/seasonsofyjinn.png)](https://tryhackme.com/p/seasonsofyjinn)
+## 📈 TryHackMe Progress
 
 > 🔗 [View my TryHackMe profile →](https://tryhackme.com/p/seasonsofyjinn)
 
