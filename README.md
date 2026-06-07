@@ -65,9 +65,11 @@ Tools        Git · Docker · VS Code
 
 <div align="center">
 
-![Chamika's GitHub stats](https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=dark&hide_border=true)
+## 📊 GitHub Stats
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=dark&hide_border=true)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/chamika-r)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=dark&hide_border=true)](https://github.com/chamika-r)
 
 </div>
 
@@ -76,6 +78,8 @@ Tools        Git · Docker · VS Code
 ## 📈 TryHackMe Progress
 
 [![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/seasonsofyjinn.png)](https://tryhackme.com/p/seasonsofyjinn)
+
+> 🔗 [View my TryHackMe profile →](https://tryhackme.com/p/seasonsofyjinn)
 
 ---
 
