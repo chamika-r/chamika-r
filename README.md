@@ -75,8 +75,6 @@ Tools        Git · Docker · VS Code
 
 ## 📈 TryHackMe Progress
 
-## 📈 TryHackMe Progress
-
 > 🔗 [View my TryHackMe profile →](https://tryhackme.com/p/seasonsofyjinn)
 
 ---
