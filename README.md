@@ -232,7 +232,7 @@ and lessons learned in detail.
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-</div>
+<br>
 
 <table>
 <tr>
@@ -267,6 +267,8 @@ and lessons learned in detail.
 </tr>
 </table>
 
+</div>
+
 <br>
 
 ---
@@ -277,8 +279,8 @@ and lessons learned in detail.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&icon_color=00ffe5&text_color=c8d8e8" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&text_color=c8d8e8" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&icon_color=00ffe5&text_color=c8d8e8&hide=prs,issues,contribs" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&text_color=c8d8e8&langs_count=6" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=chamika-r&theme=tokyonight&hide_border=true&background=0D1117&ring=00ffe5&fire=00ffe5&currStreakLabel=00ffe5" />
 
