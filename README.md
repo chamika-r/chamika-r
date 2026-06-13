@@ -2,6 +2,12 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:006064,100:00ffe5&height=200&section=header&text=Chamika%20Ranaweera&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Cybersecurity%20Undergraduate%20%7C%20Builder%20%7C%20Defender&descAlignY=55&descSize=18&animation=fadeIn" />
 
+<a href="https://github.com/chamika-r">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FFE5&center=true&vCenter=true&width=600&lines=Building+security+tools+from+scratch;Detecting+phishing+with+97.2%25+accuracy;Found+a+CRITICAL+SQL+injection+on+DVWA;Deployed+a+live+CVE+intelligence+dashboard;Always+learning%2C+always+building." />
+</a>
+
+<br><br>
+
 <a href="https://tryhackme.com/p/seasonsofyjinn"><img src="https://img.shields.io/badge/TryHackMe-seasonsofyjinn-red?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
 <a href="https://cve-dashboard-pup2.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-CVE%20Dashboard-00ffe5?style=for-the-badge&logo=render&logoColor=black" /></a>
 <a href="https://github.com/chamika-r"><img src="https://img.shields.io/badge/GitHub-chamika--r-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -27,6 +33,62 @@ class Chamika:
             "Keep building, keep breaking, keep learning"
         ]
 ```
+
+<br>
+
+## 🗺️ My Journey So Far
+
+<table>
+<tr>
+<td width="15%" align="center"><b>Step 1</b></td>
+<td width="85%">
+
+**🎯 Built an ML Phishing Detector**
+Trained a Logistic Regression model on 5,172 real emails — achieved **97.20% accuracy**. Wrapped it in a Flask API with confidence scores and explanations.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 2</b></td>
+<td>
+
+**📡 Built a Live Network Analyzer**
+Captured real packets with Scapy. Built detectors for port scanning and ARP spoofing, displayed in a live terminal dashboard updating every 0.5 seconds.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 3</b></td>
+<td>
+
+**🔍 Built a Vulnerability Scanner**
+Wrote a scanner that tests for OWASP Top 10 vulnerabilities. Ran it against DVWA and found **9 real vulnerabilities**, including a CRITICAL SQL injection — then generated a professional PDF pentest report.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 4</b></td>
+<td>
+
+**🚀 Deployed a Live CVE Dashboard**
+Built and deployed a real-time dashboard pulling live data from the NIST NVD. **Currently live** — showing real vulnerabilities published within the last 24 hours.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Next</b></td>
+<td>
+
+**🎓 Cybersecurity Internship**
+Looking to bring this hands-on, build-first mindset to a real security team.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+---
 
 <br>
 
@@ -130,6 +192,34 @@ and lessons learned in detail.
 
 <br>
 
+## 🧠 Skills
+
+<div align="center">
+
+**Network Security**
+![](https://progress-bar.dev/85/?title=Packet%20Analysis&width=300&color=00ffe5)
+![](https://progress-bar.dev/75/?title=ARP%2FPort%20Scan%20Detection&width=300&color=00ffe5)
+
+**Web Application Security**
+![](https://progress-bar.dev/80/?title=OWASP%20Top%2010&width=300&color=ff8c00)
+![](https://progress-bar.dev/70/?title=Penetration%20Testing&width=300&color=ff8c00)
+
+**Machine Learning for Security**
+![](https://progress-bar.dev/75/?title=Model%20Training&width=300&color=ff3e6c)
+![](https://progress-bar.dev/70/?title=Feature%20Engineering&width=300&color=ff3e6c)
+
+**Tools & DevOps**
+![](https://progress-bar.dev/80/?title=Git%2FGitHub&width=300&color=00ff88)
+![](https://progress-bar.dev/65/?title=Docker&width=300&color=00ff88)
+
+</div>
+
+<br>
+
+---
+
+<br>
+
 ## 🧰 Tech Stack
 
 <div align="center">
@@ -170,6 +260,8 @@ and lessons learned in detail.
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=chamika-r&theme=tokyonight&hide_border=true&background=0D1117&ring=00ffe5&fire=00ffe5&currStreakLabel=00ffe5" />
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chamika-r&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00ffe5&line=00ffe5&point=ffffff" />
+
 </div>
 
 <br>
@@ -185,6 +277,8 @@ and lessons learned in detail.
 🌱 Learning     → Advanced network security & threat hunting
 🎯 Goal         → Cybersecurity internship 2026
 💬 Ask me about → ML for security, network analysis, web app pentesting
+⚡ Fun fact     → Every project on this profile was built from zero,
+                   including the live dashboard you can click above
 ```
 
 <br>
@@ -216,5 +310,9 @@ and lessons learned in detail.
 <br>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=chamika-r&style=flat-square&color=00ffe5&label=Profile+Views)
+
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffe5,100:006064&height=100&section=footer" />
 
 </div>
