@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Profile banner for Chamika Ranaweera</title>
+<desc>A dark terminal-style banner with grid background, name, role and four security badges</desc>
+<defs>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0d3a3f" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect width="1200" height="300" fill="#06141a"/>
+<rect width="1200" height="300" fill="url(#grid)"/>
+<rect x="0" y="0" width="1200" height="4" fill="#00ffe5"/>
+<text x="60" y="70" font-family="monospace" font-size="16" fill="#00ffe5">$ whoami</text>
+<text x="60" y="125" font-family="monospace" font-size="46" font-weight="700" fill="#ffffff">Chamika Ranaweera</text>
+<text x="60" y="165" font-family="monospace" font-size="20" fill="#7fe7da">Cybersecurity Undergraduate — Builder — Defender</text>
+
+<g font-family="monospace" font-size="14" font-weight="600">
+  <rect x="60" y="200" width="230" height="44" rx="6" fill="#0d2b2e" stroke="#00ffe5" stroke-width="1"/>
+  <text x="80" y="227" fill="#00ffe5">4 security tools built</text>
+
+  <rect x="310" y="200" width="200" height="44" rx="6" fill="#0d2b2e" stroke="#00ff88" stroke-width="1"/>
+  <text x="330" y="227" fill="#00ff88">1 live deployment</text>
+
+  <rect x="530" y="200" width="220" height="44" rx="6" fill="#0d2b2e" stroke="#ff8c00" stroke-width="1"/>
+  <text x="550" y="227" fill="#ff8c00">Critical CVE found</text>
+
+  <rect x="770" y="200" width="240" height="44" rx="6" fill="#0d2b2e" stroke="#ff3e6c" stroke-width="1"/>
+  <text x="790" y="227" fill="#ff3e6c">97.2% ML accuracy</text>
+</g>
+
+<text x="60" y="275" font-family="monospace" font-size="14" fill="#4a8a8f">$ status: actively building and learning_</text>
+</svg>

@@ -1,28 +1,24 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:006064,100:00ffe5&height=200&section=header&text=Chamika%20Ranaweera&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Cybersecurity%20Undergraduate%20%7C%20Builder%20%7C%20Defender&descAlignY=55&descSize=18&animation=fadeIn" />
-
-<a href="https://github.com/chamika-r">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FFE5&center=true&vCenter=true&width=600&lines=Building+security+tools+from+scratch;Detecting+phishing+with+97.2%25+accuracy;Found+a+CRITICAL+SQL+injection+on+DVWA;Deployed+a+live+CVE+intelligence+dashboard;Always+learning%2C+always+building." />
-</a>
+<img width="100%" src="assets/banner.svg" alt="Chamika Ranaweera — Cybersecurity Undergraduate, Builder, Defender" />
 
 <br><br>
 
 <a href="https://tryhackme.com/p/seasonsofyjinn"><img src="https://img.shields.io/badge/TryHackMe-seasonsofyjinn-red?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
-<a href="https://cve-dashboard-pup2.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-CVE%20Dashboard-00ffe5?style=for-the-badge&logo=render&logoColor=black" /></a>
+<a href="https://cve-dashboard-pup2.onrender.com"><img src="https://img.shields.io/badge/Live%20demo-CVE%20dashboard-00ffe5?style=for-the-badge&logo=render&logoColor=black" /></a>
 <a href="https://github.com/chamika-r"><img src="https://img.shields.io/badge/GitHub-chamika--r-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
 
 <br>
 
-## 🛡️ About Me
+## About me
 
 ```python
 class Chamika:
     def __init__(self):
-        self.role = "Undergraduate Cybersecurity Student"
-        self.focus = ["Network Security", "Web App Security", "Threat Intelligence"]
+        self.role = "Undergraduate cybersecurity student"
+        self.focus = ["Network security", "Web app security", "Threat intelligence"]
         self.philosophy = "Don't just study attacks — build the tools that detect them"
         self.location = "Sri Lanka"
 
@@ -30,80 +26,27 @@ class Chamika:
         return [
             "Land a cybersecurity internship",
             "Contribute to real security teams",
-            "Keep building, keep breaking, keep learning"
+            "Keep building, keep breaking, keep learning",
         ]
 ```
 
 <br>
 
-## 🗺️ My Journey So Far
-
-<table>
-<tr>
-<td width="15%" align="center"><b>Step 1</b></td>
-<td width="85%">
-
-**🎯 Built an ML Phishing Detector**
-Trained a Logistic Regression model on 5,172 real emails — achieved **97.20% accuracy**. Wrapped it in a Flask API with confidence scores and explanations.
-
-</td>
-</tr>
-<tr>
-<td align="center"><b>Step 2</b></td>
-<td>
-
-**📡 Built a Live Network Analyzer**
-Captured real packets with Scapy. Built detectors for port scanning and ARP spoofing, displayed in a live terminal dashboard updating every 0.5 seconds.
-
-</td>
-</tr>
-<tr>
-<td align="center"><b>Step 3</b></td>
-<td>
-
-**🔍 Built a Vulnerability Scanner**
-Wrote a scanner that tests for OWASP Top 10 vulnerabilities. Ran it against DVWA and found **9 real vulnerabilities**, including a CRITICAL SQL injection — then generated a professional PDF pentest report.
-
-</td>
-</tr>
-<tr>
-<td align="center"><b>Step 4</b></td>
-<td>
-
-**🚀 Deployed a Live CVE Dashboard**
-Built and deployed a real-time dashboard pulling live data from the NIST NVD. **Currently live** — showing real vulnerabilities published within the last 24 hours.
-
-</td>
-</tr>
-<tr>
-<td align="center"><b>Next</b></td>
-<td>
-
-**🎓 Cybersecurity Internship**
-Looking to bring this hands-on, build-first mindset to a real security team.
-
-</td>
-</tr>
-</table>
+<img width="100%" src="assets/section-live.svg" alt="Featured live demo" />
 
 <br>
-
----
-
-<br>
-
-## 🌐 Featured — Live Project
 
 <div align="center">
 
-### 🛡️ CVE Intelligence Dashboard
-**A real-time vulnerability intelligence platform pulling live data from the NIST National Vulnerability Database**
+### CVE intelligence dashboard
+A real-time vulnerability intelligence platform pulling live data from the
+NIST National Vulnerability Database
 
 <a href="https://cve-dashboard-pup2.onrender.com">
-<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Click_to_Open-00ffe5?style=for-the-badge&labelColor=006064" />
+<img src="https://img.shields.io/badge/Open_live_demo-00ffe5?style=for-the-badge&labelColor=06141a" />
 </a>
 
-*⏳ Free hosting — first load may take ~30 seconds to wake up*
+<sub>Free hosting — first load may take ~30 seconds to wake up</sub>
 
 `Python` `Flask` `SQLite` `Chart.js` `Render`
 
@@ -111,18 +54,17 @@ Looking to bring this hands-on, build-first mindset to a real security team.
 
 <br>
 
----
+<img width="100%" src="assets/section-projects.svg" alt="Security projects" />
 
 <br>
-
-## 🔨 Security Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3>🎯 Phishing Email Detector</h3>
 
-ML-powered phishing detection trained on **5,172 real emails**
+### Phishing email detector
+
+ML-powered phishing detection trained on 5,172 real emails
 
 <img src="https://img.shields.io/badge/Accuracy-97.20%25-success?style=flat-square" />
 
@@ -131,14 +73,15 @@ plain-English explanations of suspicious indicators.
 
 <kbd>Python</kbd> <kbd>scikit-learn</kbd> <kbd>Flask</kbd> <kbd>pandas</kbd>
 
-<a href="https://github.com/chamika-r/phishing-detector">→ View Project</a>
+[View project →](https://github.com/chamika-r/phishing-detector)
 
 </td>
 <td width="50%" valign="top">
-<h3>📡 Network Packet Analyzer</h3>
 
-Real-time traffic analyzer detecting **port scans** and
-**ARP spoofing** as they happen
+### Network packet analyzer
+
+Real-time traffic analyzer detecting port scans and ARP spoofing
+as they happen
 
 <img src="https://img.shields.io/badge/Refresh-0.5s-success?style=flat-square" />
 
@@ -147,40 +90,42 @@ and alerts on suspicious network activity.
 
 <kbd>Python</kbd> <kbd>Scapy</kbd> <kbd>Rich</kbd>
 
-<a href="https://github.com/chamika-r/network-analyzer">→ View Project</a>
+[View project →](https://github.com/chamika-r/network-analyzer)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>🔍 Web Vulnerability Scanner</h3>
 
-OWASP Top 10 scanner — found **9 real vulnerabilities** on DVWA
+### Web vulnerability scanner
 
-<img src="https://img.shields.io/badge/Critical-SQL%20Injection%20Found-critical?style=flat-square&color=B71C1C" />
+OWASP Top 10 scanner — found 9 real vulnerabilities on DVWA
+
+<img src="https://img.shields.io/badge/Critical-SQL%20injection%20found-critical?style=flat-square&color=B71C1C" />
 
 Generates professional PDF penetration test reports with
 severity ratings and remediation guidance.
 
 <kbd>Python</kbd> <kbd>BeautifulSoup</kbd> <kbd>Click</kbd> <kbd>ReportLab</kbd>
 
-<a href="https://github.com/chamika-r/web-vulnerability-scanner">→ View Project</a>
+[View project →](https://github.com/chamika-r/web-vulnerability-scanner)
 
 </td>
 <td width="50%" valign="top">
-<h3>📚 Security Writeups</h3>
 
-Documenting hands-on learning through **CTF challenges**
+### Security writeups
+
+Documenting hands-on learning through CTF challenges
 and TryHackMe rooms
 
-<img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square" />
+<img src="https://img.shields.io/badge/Status-In%20progress-yellow?style=flat-square" />
 
 Each writeup breaks down the attack, exploitation steps,
 and lessons learned in detail.
 
 <kbd>CTF</kbd> <kbd>TryHackMe</kbd> <kbd>Writeups</kbd>
 
-<a href="https://github.com/chamika-r/security-writeups">→ View Repo</a>
+[View repo →](https://github.com/chamika-r/security-writeups)
 
 </td>
 </tr>
@@ -188,39 +133,72 @@ and lessons learned in detail.
 
 <br>
 
----
+<img width="100%" src="assets/section-journey.svg" alt="My journey" />
 
 <br>
 
-## 🧠 Skills
+<table>
+<tr>
+<td width="120" align="center"><b>Step 1</b></td>
+<td>
 
-<div align="center">
+**Built an ML phishing detector**
+Trained a logistic regression model on 5,172 real emails — achieved 97.20% accuracy.
+Wrapped it in a Flask API with confidence scores and explanations.
 
-**Network Security**
-![](https://progress-bar.dev/85/?title=Packet%20Analysis&width=300&color=00ffe5)
-![](https://progress-bar.dev/75/?title=ARP%2FPort%20Scan%20Detection&width=300&color=00ffe5)
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 2</b></td>
+<td>
 
-**Web Application Security**
-![](https://progress-bar.dev/80/?title=OWASP%20Top%2010&width=300&color=ff8c00)
-![](https://progress-bar.dev/70/?title=Penetration%20Testing&width=300&color=ff8c00)
+**Built a live network analyzer**
+Captured real packets with Scapy. Built detectors for port scanning and ARP spoofing,
+displayed in a live terminal dashboard updating every 0.5 seconds.
 
-**Machine Learning for Security**
-![](https://progress-bar.dev/75/?title=Model%20Training&width=300&color=ff3e6c)
-![](https://progress-bar.dev/70/?title=Feature%20Engineering&width=300&color=ff3e6c)
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 3</b></td>
+<td>
 
-**Tools & DevOps**
-![](https://progress-bar.dev/80/?title=Git%2FGitHub&width=300&color=00ff88)
-![](https://progress-bar.dev/65/?title=Docker&width=300&color=00ff88)
+**Built a vulnerability scanner**
+Wrote a scanner that tests for OWASP Top 10 vulnerabilities. Ran it against DVWA and
+found 9 real vulnerabilities, including a critical SQL injection — then generated a
+professional PDF pentest report.
 
-</div>
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 4</b></td>
+<td>
+
+**Deployed a live CVE dashboard**
+Built and deployed a real-time dashboard pulling live data from the NIST NVD.
+Currently live — showing real vulnerabilities published within the last 24 hours.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Next</b></td>
+<td>
+
+**Cybersecurity internship**
+Looking to bring this hands-on, build-first mindset to a real security team.
+
+</td>
+</tr>
+</table>
 
 <br>
 
----
+<img width="100%" src="assets/section-skills.svg" alt="Skills and stack" />
 
 <br>
 
-## 🧰 Tech Stack
+<img width="100%" src="assets/skills.svg" alt="Skill levels: network security 85 percent, web application security 80 percent, machine learning for security 75 percent, tools and devops 80 percent" />
+
+<br>
 
 <div align="center">
 
@@ -234,14 +212,29 @@ and lessons learned in detail.
 
 </div>
 
-<div align="center">
+<br>
 
-| Domain | Tools & Concepts |
+| Domain | Tools and concepts |
 |:---|:---|
-| 🔐 **Security** | Scapy · OWASP Top 10 · Nmap · DVWA · MITRE ATT&CK · Cyber Kill Chain |
-| 🤖 **ML / Data** | scikit-learn · pandas · numpy · Logistic Regression |
-| 🌐 **Web** | Flask · BeautifulSoup · requests · Chart.js · REST APIs |
-| ⚙️ **DevOps** | Git · Docker · Render · Virtual Environments |
+| Security | Scapy · OWASP Top 10 · Nmap · DVWA · MITRE ATT&CK · Cyber Kill Chain |
+| ML / data | scikit-learn · pandas · numpy · logistic regression |
+| Web | Flask · BeautifulSoup · requests · Chart.js · REST APIs |
+| DevOps | Git · Docker · Render · virtual environments |
+
+<br>
+
+---
+
+<br>
+
+## GitHub stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06141A&title_color=00ffe5&icon_color=00ffe5&text_color=c8d8e8" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=tokyonight&hide_border=true&bg_color=06141A&title_color=00ffe5&text_color=c8d8e8" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=chamika-r&theme=tokyonight&hide_border=true&background=06141A&ring=00ffe5&fire=00ffe5&currStreakLabel=00ffe5" />
 
 </div>
 
@@ -251,57 +244,17 @@ and lessons learned in detail.
 
 <br>
 
-## 📊 GitHub Stats
-
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&icon_color=00ffe5&text_color=c8d8e8" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&text_color=c8d8e8" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=chamika-r&theme=tokyonight&hide_border=true&background=0D1117&ring=00ffe5&fire=00ffe5&currStreakLabel=00ffe5" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=chamika-r&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00ffe5&line=00ffe5&point=ffffff" />
-
-</div>
+**Currently:** expanding security-writeups with CTF solutions · learning advanced threat hunting
+**Goal:** cybersecurity internship 2026
+**Ask me about:** ML for security, network analysis, web app pentesting
 
 <br>
-
----
-
-<br>
-
-## 🎯 What I'm Working On
-
-```
-🔭 Building     → Expanding security-writeups with CTF solutions
-🌱 Learning     → Advanced network security & threat hunting
-🎯 Goal         → Cybersecurity internship 2026
-💬 Ask me about → ML for security, network analysis, web app pentesting
-⚡ Fun fact     → Every project on this profile was built from zero,
-                   including the live dashboard you can click above
-```
-
-<br>
-
-## 📈 TryHackMe Progress
-
-<div align="center">
 
 <a href="https://tryhackme.com/p/seasonsofyjinn">
-<img src="https://img.shields.io/badge/View_Profile-TryHackMe-red?style=for-the-badge&logo=tryhackme&logoColor=white" />
+<img src="https://img.shields.io/badge/View_profile-TryHackMe-red?style=for-the-badge&logo=tryhackme&logoColor=white" />
 </a>
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-### 💬 Let's Connect
-
-<a href="https://github.com/chamika-r"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 <br><br>
 
@@ -309,10 +262,6 @@ and lessons learned in detail.
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=chamika-r&style=flat-square&color=00ffe5&label=Profile+Views)
-
-<br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffe5,100:006064&height=100&section=footer" />
+![Profile views](https://komarev.com/ghpvc/?username=chamika-r&style=flat-square&color=00ffe5&label=Profile+views)
 
 </div>
