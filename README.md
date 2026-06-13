@@ -280,7 +280,12 @@ and lessons learned in detail.
 <div align="center">
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&icon_color=00ffe5&text_color=c8d8e8&hide=prs,issues,contribs" />
+
+<br>
+
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&text_color=c8d8e8&langs_count=6" />
+
+<br><br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=chamika-r&theme=tokyonight&hide_border=true&background=0D1117&ring=00ffe5&fire=00ffe5&currStreakLabel=00ffe5" />
 
@@ -296,9 +301,13 @@ and lessons learned in detail.
 
 ## 🎯 What I'm Working On
 
+<div align="center">
+
 <a href="https://github.com/chamika-r">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=900&color=00FF88&center=true&vCenter=true&width=600&lines=Expanding+security-writeups+with+CTF+solutions;Learning+advanced+network+security+%26+threat+hunting;Goal%3A+Cybersecurity+internship+2026;Ask+me+about+ML+for+security+%26+pentesting" />
 </a>
+
+</div>
 
 <br>
 
