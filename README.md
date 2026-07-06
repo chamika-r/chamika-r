@@ -3,7 +3,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:006064,100:00ffe5&height=200&section=header&text=Chamika%20Ranaweera&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Cybersecurity%20Undergraduate%20%7C%20Builder%20%7C%20Defender&descAlignY=55&descSize=18&animation=fadeIn" />
 
 <a href="https://github.com/chamika-r">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FFE5&center=true&vCenter=true&width=600&lines=Building+security+tools+from+scratch;Detecting+phishing+with+97.2%25+accuracy;Found+a+CRITICAL+SQL+injection+on+DVWA;Deployed+a+live+CVE+intelligence+dashboard;Always+learning%2C+always+building." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FFE5&center=true&vCenter=true&width=650&lines=Building+security+tools+from+scratch;Detected+phishing+with+97.2%25+accuracy;Found+a+CRITICAL+SQL+injection+on+DVWA;Deployed+a+live+CVE+intelligence+dashboard;Built+8+real-world+security+tools;Always+learning%2C+always+building." />
 </a>
 
 <br><br>
@@ -28,7 +28,7 @@ class Chamika:
 
     def current_goals(self):
         return [
-            "Land a cybersecurity internship",
+            "Land a cybersecurity internship abroad",
             "Contribute to real security teams",
             "Keep building, keep breaking, keep learning"
         ]
@@ -44,7 +44,7 @@ class Chamika:
 <td width="85%">
 
 **🎯 Built an ML Phishing Detector**
-Trained a Logistic Regression model on 5,172 real emails — achieved **97.20% accuracy**. Wrapped it in a Flask API with confidence scores and explanations.
+Trained a Logistic Regression model on 5,172 real emails — achieved **97.20% accuracy**. Wrapped it in a Flask API with confidence scores and plain-English explanations.
 
 </td>
 </tr>
@@ -72,6 +72,42 @@ Wrote a scanner that tests for OWASP Top 10 vulnerabilities. Ran it against DVWA
 
 **🚀 Deployed a Live CVE Dashboard**
 Built and deployed a real-time dashboard pulling live data from the NIST NVD. **Currently live** — showing real vulnerabilities published within the last 24 hours.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 5</b></td>
+<td>
+
+**📧 Built a BEC / Email Authentication Analyzer**
+Detects Business Email Compromise attacks — analyzes SPF, DKIM, DMARC headers via live DNS lookups, detects look-alike domains using Levenshtein distance, and produces a 0–100 risk score.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 6</b></td>
+<td>
+
+**🔎 Built a Dependency Vulnerability Scanner**
+Scans Python and Node.js dependencies against the Google OSV database — the same database powering GitHub's Dependabot. Finds real CVEs with fix versions and generates PDF reports.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 7</b></td>
+<td>
+
+**📋 Built a CycloneDX SBOM Generator + Scanner**
+Generates formal Software Bill of Materials in CycloneDX 1.4 format with Package URLs, then cross-references every component against the OSV database. Satisfies US EO 14028 and EU Cyber Resilience Act 2024 requirements.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 8</b></td>
+<td>
+
+**🔐 Built a Digital Security Toolkit**
+Two privacy tools: a password breach checker using HIBP k-anonymity (password never leaves the device), and an image metadata stripper that removes GPS location, device info, and timestamps from photos.
 
 </td>
 </tr>
@@ -168,19 +204,86 @@ severity ratings and remediation guidance.
 
 </td>
 <td width="50%" valign="top">
-<h3>📚 Security Writeups</h3>
+<h3>🚀 CVE Intelligence Dashboard</h3>
 
-Documenting hands-on learning through **CTF challenges**
-and TryHackMe rooms
+**Live** real-time dashboard pulling data from the NIST NVD
 
-<img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square" />
+<img src="https://img.shields.io/badge/Status-Live-00ffe5?style=flat-square" />
 
-Each writeup breaks down the attack, exploitation steps,
-and lessons learned in detail.
+Tracks CVEs published in the last 24 hours with severity
+filtering, trend charts, and searchable database.
 
-<kbd>CTF</kbd> <kbd>TryHackMe</kbd> <kbd>Writeups</kbd>
+<kbd>Python</kbd> <kbd>Flask</kbd> <kbd>SQLite</kbd> <kbd>Chart.js</kbd>
 
-<a href="https://github.com/chamika-r/security-writeups">→ View Repo</a>
+<a href="https://github.com/chamika-r/cve-dashboard">→ View Project</a> · <a href="https://cve-dashboard-pup2.onrender.com">→ Live Demo</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>📧 Email Authentication Analyzer</h3>
+
+Detects **Business Email Compromise** attacks from raw .eml files
+
+<img src="https://img.shields.io/badge/Risk%20Score-0--100-blue?style=flat-square" />
+
+Analyzes SPF, DKIM, DMARC via live DNS lookups. Detects
+look-alike domains (paypa1.com → paypal.com) using
+Levenshtein distance. CLI and web UI.
+
+<kbd>Python</kbd> <kbd>dnspython</kbd> <kbd>Flask</kbd>
+
+<a href="https://github.com/chamika-r/email-auth-analyzer">→ View Project</a>
+
+</td>
+<td width="50%" valign="top">
+<h3>🔎 Dependency Vulnerability Scanner</h3>
+
+Scans Python and Node.js deps against the **Google OSV database**
+
+<img src="https://img.shields.io/badge/Found-80%20CVEs%20in%205%20packages-critical?style=flat-square&color=B71C1C" />
+
+The same database powering GitHub Dependabot. Shows fix
+versions, generates PDF reports. Supports requirements.txt
+and package.json.
+
+<kbd>Python</kbd> <kbd>OSV API</kbd> <kbd>Flask</kbd> <kbd>ReportLab</kbd>
+
+<a href="https://github.com/chamika-r/dependency-scanner">→ View Project</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>📋 SBOM Generator + Scanner</h3>
+
+Generates **CycloneDX 1.4** Software Bill of Materials with Package URLs
+
+<img src="https://img.shields.io/badge/Standard-CycloneDX%201.4-00ffe5?style=flat-square" />
+
+Satisfies US EO 14028 and EU Cyber Resilience Act 2024
+requirements. Walks project directories, generates formal SBOMs,
+scans against OSV, exports SBOM JSON.
+
+<kbd>Python</kbd> <kbd>CycloneDX</kbd> <kbd>OSV API</kbd> <kbd>Flask</kbd>
+
+<a href="https://github.com/chamika-r/sbom-scanner">→ View Project</a>
+
+</td>
+<td width="50%" valign="top">
+<h3>🔐 Digital Security Toolkit</h3>
+
+Two privacy tools — **password breach check** and **metadata stripper**
+
+<img src="https://img.shields.io/badge/Privacy-k--anonymity-success?style=flat-square" />
+
+Password breach checker uses HIBP k-anonymity — only a 5-char
+SHA-1 prefix is sent, password never leaves the device. Image
+metadata stripper removes GPS, device info, timestamps from photos.
+
+<kbd>Python</kbd> <kbd>HIBP API</kbd> <kbd>Pillow</kbd> <kbd>Flask</kbd>
+
+<a href="https://github.com/chamika-r/digital-security-toolkit">→ View Project</a>
 
 </td>
 </tr>
@@ -202,7 +305,11 @@ and lessons learned in detail.
 
 **Web Application Security**
 ![](https://progress-bar.dev/80/?title=OWASP%20Top%2010&width=300&color=ff8c00)
-![](https://progress-bar.dev/70/?title=Penetration%20Testing&width=300&color=ff8c00)
+![](https://progress-bar.dev/75/?title=Penetration%20Testing&width=300&color=ff8c00)
+
+**Security Engineering**
+![](https://progress-bar.dev/78/?title=BEC%20%2F%20Email%20Security&width=300&color=00ffe5)
+![](https://progress-bar.dev/80/?title=Supply%20Chain%20Security%20%2F%20SBOM&width=300&color=00ffe5)
 
 **Machine Learning for Security**
 ![](https://progress-bar.dev/75/?title=Model%20Training&width=300&color=ff3e6c)
@@ -240,7 +347,7 @@ and lessons learned in detail.
 
 🔐<br><b>Security</b>
 
-<sub>Scapy · OWASP Top 10<br>Nmap · DVWA<br>MITRE ATT&CK · Kill Chain</sub>
+<sub>Scapy · OWASP Top 10<br>BEC Detection · SBOM<br>MITRE ATT&CK · OSV · HIBP</sub>
 
 </td>
 <td width="25%" valign="top" align="center">
@@ -254,7 +361,7 @@ and lessons learned in detail.
 
 🌐<br><b>Web</b>
 
-<sub>Flask · BeautifulSoup<br>requests · Chart.js<br>REST APIs</sub>
+<sub>Flask · BeautifulSoup<br>requests · Chart.js<br>REST APIs · CycloneDX</sub>
 
 </td>
 <td width="25%" valign="top" align="center">
@@ -304,7 +411,7 @@ and lessons learned in detail.
 <div align="center">
 
 <a href="https://github.com/chamika-r">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=900&color=00FF88&center=true&vCenter=true&width=600&lines=Expanding+security-writeups+with+CTF+solutions;Learning+advanced+network+security+%26+threat+hunting;Goal%3A+Cybersecurity+internship+2026;Ask+me+about+ML+for+security+%26+pentesting" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=900&color=00FF88&center=true&vCenter=true&width=650&lines=Building+cloud+security+and+AI+security+tools;Working+through+a+Cyber+Attack+Encyclopedia;Goal%3A+Cybersecurity+internship+abroad+2026;Ask+me+about+BEC+detection%2C+SBOMs%2C+supply+chain+security" />
 </a>
 
 </div>
