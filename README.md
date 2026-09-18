@@ -1,82 +1,147 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff8815,100:0d1117&height=120&section=header&text=&animation=fadeIn"/>
-
-</div>
-
-<div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:006064,100:00ffe5&height=200&section=header&text=Chamika%20Ranaweera&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Cybersecurity%20Undergraduate%20%7C%20Builder%20%7C%20Defender&descAlignY=55&descSize=18&animation=fadeIn" />
 
 <a href="https://github.com/chamika-r">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=800&color=00FF88&center=true&vCenter=true&width=700&height=60&lines=Hey+%F0%9F%91%8B+I'm+Chamika;Security+Tool+Builder;Threat+Hunter+in+Training;Don't+study+attacks+%E2%80%94+detect+them." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FFE5&center=true&vCenter=true&width=650&lines=Building+security+tools+from+scratch;Detected+phishing+with+97.2%25+accuracy;Found+a+CRITICAL+SQL+injection+on+DVWA;Deployed+a+live+CVE+intelligence+dashboard;Built+8+real-world+security+tools;Always+learning%2C+always+building." />
 </a>
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=8B949E&center=true&vCenter=true&width=600&height=30&lines=Cybersecurity+Undergraduate+%40+SLIIT+%E2%80%A2+Sri+Lanka+%E2%86%92+Foreign+Markets" />
 
 <br><br>
 
-[![](https://img.shields.io/badge/-%F0%9F%9F%A2%20ACTIVELY%20BUILDING-00ff88?style=for-the-badge&labelColor=0d1117)](https://github.com/chamika-r)
-[![](https://img.shields.io/badge/-%F0%9F%94%B4%20CRITICAL%20SQLi%20FOUND-ff4075?style=for-the-badge&labelColor=0d1117)](https://github.com/chamika-r/web-vulnerability-scanner)
-[![](https://img.shields.io/badge/-%F0%9F%9F%A3%20LIVE%20CVE%20DASHBOARD-00bcd4?style=for-the-badge&labelColor=0d1117)](https://cve-dashboard-pup2.onrender.com)
-
-<br>
-
-[![](https://img.shields.io/badge/Tools%20Built-8%20from%20scratch-00ff88?style=flat-square&labelColor=161b22)](https://github.com/chamika-r)
-[![](https://img.shields.io/badge/ML%20Accuracy-97.20%25-00bcd4?style=flat-square&labelColor=161b22)](https://github.com/chamika-r/phishing-detector)
-[![](https://img.shields.io/badge/CVEs%20Found-80%20in%20one%20scan-bc8cff?style=flat-square&labelColor=161b22)](https://github.com/chamika-r/dependency-scanner)
-[![](https://img.shields.io/badge/Vulns%20Confirmed-9%20on%20DVWA-e3b341?style=flat-square&labelColor=161b22)](https://github.com/chamika-r/web-vulnerability-scanner)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-seasonsofyjinn-red?style=flat-square&logo=tryhackme&logoColor=white&labelColor=161b22)](https://tryhackme.com/p/seasonsofyjinn)
+<a href="https://tryhackme.com/p/seasonsofyjinn"><img src="https://img.shields.io/badge/TryHackMe-seasonsofyjinn-red?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
+<a href="https://cve-dashboard-pup2.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-CVE%20Dashboard-00ffe5?style=for-the-badge&logo=render&logoColor=black" /></a>
+<a href="https://github.com/chamika-r"><img src="https://img.shields.io/badge/GitHub-chamika--r-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
 
 <br>
 
----
-
-<img align="right" width="38%" src="https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00bcd4&text_color=8b949e&hide=prs,issues&rank_icon=github" />
-
-### `> whoami`
+## 🛡️ About Me
 
 ```python
 class Chamika:
-    name     = "Chamika Ranaweera"
-    role     = "Cybersecurity Undergraduate @ SLIIT"
-    target   = "Junior SOC Analyst — UK / AU / SG / Remote"
-    approach = "build the detector, not just study the attack"
-    status   = "actively_building"
+    def __init__(self):
+        self.role = "Undergraduate Cybersecurity Student"
+        self.focus = ["Network Security", "Web App Security", "Threat Intelligence"]
+        self.philosophy = "Don't just study attacks — build the tools that detect them"
+        self.location = "Sri Lanka"
 
-    tools_built    = 8
-    highest_finding = "CRITICAL"   # SQL injection on DVWA
-    ml_accuracy    = 97.20         # phishing detector
-    live_projects  = 1             # CVE dashboard
-
-    frameworks = ["OWASP Top 10", "MITRE ATT&CK",
-                  "Cyber Kill Chain", "CycloneDX"]
+    def current_goals(self):
+        return [
+            "Land a cybersecurity internship abroad",
+            "Contribute to real security teams",
+            "Keep building, keep breaking, keep learning"
+        ]
 ```
 
-<br clear="right"/>
+<br>
+
+## 🗺️ My Journey So Far
+
+<table>
+<tr>
+<td width="15%" align="center"><b>Step 1</b></td>
+<td width="85%">
+
+**🎯 Built an ML Phishing Detector**
+Trained a Logistic Regression model on 5,172 real emails — achieved **97.20% accuracy**. Wrapped it in a Flask API with confidence scores and plain-English explanations.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 2</b></td>
+<td>
+
+**📡 Built a Live Network Analyzer**
+Captured real packets with Scapy. Built detectors for port scanning and ARP spoofing, displayed in a live terminal dashboard updating every 0.5 seconds.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 3</b></td>
+<td>
+
+**🔍 Built a Vulnerability Scanner**
+Wrote a scanner that tests for OWASP Top 10 vulnerabilities. Ran it against DVWA and found **9 real vulnerabilities**, including a CRITICAL SQL injection — then generated a professional PDF pentest report.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 4</b></td>
+<td>
+
+**🚀 Deployed a Live CVE Dashboard**
+Built and deployed a real-time dashboard pulling live data from the NIST NVD. **Currently live** — showing real vulnerabilities published within the last 24 hours.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 5</b></td>
+<td>
+
+**📧 Built a BEC / Email Authentication Analyzer**
+Detects Business Email Compromise attacks — analyzes SPF, DKIM, DMARC headers via live DNS lookups, detects look-alike domains using Levenshtein distance, and produces a 0–100 risk score.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 6</b></td>
+<td>
+
+**🔎 Built a Dependency Vulnerability Scanner**
+Scans Python and Node.js dependencies against the Google OSV database — the same database powering GitHub's Dependabot. Finds real CVEs with fix versions and generates PDF reports.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 7</b></td>
+<td>
+
+**📋 Built a CycloneDX SBOM Generator + Scanner**
+Generates formal Software Bill of Materials in CycloneDX 1.4 format with Package URLs, then cross-references every component against the OSV database. Satisfies US EO 14028 and EU Cyber Resilience Act 2024 requirements.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Step 8</b></td>
+<td>
+
+**🔐 Built a Digital Security Toolkit**
+Two privacy tools: a password breach checker using HIBP k-anonymity (password never leaves the device), and an image metadata stripper that removes GPS location, device info, and timestamps from photos.
+
+</td>
+</tr>
+<tr>
+<td align="center"><b>Next</b></td>
+<td>
+
+**🎓 Cybersecurity Internship**
+Looking to bring this hands-on, build-first mindset to a real security team.
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ---
 
 <br>
 
-## 🛡️ Security Engineering Projects
-
-<br>
+## 🌐 Featured — Live Project
 
 <div align="center">
 
-| &nbsp; | Project | Stack | Result |
-|:---:|:--------|:------|:------:|
-| <img width="20" src="https://skillicons.dev/icons?i=python"/> | **[🎯 Phishing Detector](https://github.com/chamika-r/phishing-detector)**<br><sub>ML classifier on 5,172 real emails — Flask REST API with confidence scores</sub> | `Python` `sklearn` `Flask` | ![](https://img.shields.io/badge/97.20%25-00ff88?style=flat-square) |
-| <img width="20" src="https://skillicons.dev/icons?i=python"/> | **[📡 Network Analyzer](https://github.com/chamika-r/network-analyzer)**<br><sub>Live packet capture · ARP spoof + port scan detection · Rich terminal dashboard</sub> | `Python` `Scapy` `Rich` | ![](https://img.shields.io/badge/Real--time-00bcd4?style=flat-square) |
-| <img width="20" src="https://skillicons.dev/icons?i=python"/> | **[🔍 Web Vuln Scanner](https://github.com/chamika-r/web-vulnerability-scanner)**<br><sub>OWASP Top 10 · tested on DVWA · 9 confirmed vulns · PDF pentest report</sub> | `Python` `BeautifulSoup` `ReportLab` | ![](https://img.shields.io/badge/CRITICAL%20SQLi-ff4075?style=flat-square) |
-| <img width="20" src="https://skillicons.dev/icons?i=flask"/> | **[🚀 CVE Dashboard](https://github.com/chamika-r/cve-dashboard) — [LIVE ↗](https://cve-dashboard-pup2.onrender.com)**<br><sub>Real-time NIST NVD feed · severity filtering · trend charts · 24h refresh</sub> | `Flask` `SQLite` `Chart.js` | ![](https://img.shields.io/badge/🟢%20LIVE-00ff88?style=flat-square) |
-| <img width="20" src="https://skillicons.dev/icons?i=python"/> | **[📧 BEC Email Analyzer](https://github.com/chamika-r/email-auth-analyzer)**<br><sub>SPF/DKIM/DMARC · live DNS · Levenshtein lookalike domains · 0–100 risk score</sub> | `dnspython` `Flask` | ![](https://img.shields.io/badge/BEC%20Detection-e3b341?style=flat-square) |
-| <img width="20" src="https://skillicons.dev/icons?i=python"/> | **[🔎 Dependency Scanner](https://github.com/chamika-r/dependency-scanner)**<br><sub>Python + Node.js CVE scan · Google OSV API · same as GitHub Dependabot</sub> | `OSV API` `Flask` `ReportLab` | ![](https://img.shields.io/badge/80%20CVEs-bc8cff?style=flat-square) |
-| <img width="20" src="https://skillicons.dev/icons?i=python"/> | **[📋 SBOM Scanner](https://github.com/chamika-r/sbom-scanner)**<br><sub>CycloneDX 1.4 · Package URLs · US EO 14028 · EU Cyber Resilience Act 2024</sub> | `CycloneDX` `OSV API` `Flask` | ![](https://img.shields.io/badge/EO%2014028-00bcd4?style=flat-square) |
-| <img width="20" src="https://skillicons.dev/icons?i=python"/> | **[🔐 Digital Security Toolkit](https://github.com/chamika-r/digital-security-toolkit)**<br><sub>HIBP k-anonymity password check · image EXIF GPS metadata stripper</sub> | `HIBP API` `Pillow` `Flask` | ![](https://img.shields.io/badge/k--anon-00ff88?style=flat-square) |
+### 🛡️ CVE Intelligence Dashboard
+**A real-time vulnerability intelligence platform pulling live data from the NIST National Vulnerability Database**
+
+<a href="https://cve-dashboard-pup2.onrender.com">
+<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Click_to_Open-00ffe5?style=for-the-badge&labelColor=006064" />
+</a>
+
+*⏳ Free hosting — first load may take ~30 seconds to wake up*
+
+`Python` `Flask` `SQLite` `Chart.js` `Render`
 
 </div>
 
@@ -86,17 +151,143 @@ class Chamika:
 
 <br>
 
-## 🔭 Currently Building
+## 🔨 Security Projects
 
-<br>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🎯 Phishing Email Detector</h3>
 
-> ```
-> [▶ 65%] ██████████░░░░░  cloud-security-scanner   AWS · S3 · IAM · security groups
-> [▶ 40%] ██████░░░░░░░░░  llm-injection-scanner    AI red-teaming · prompt injection
-> [▶ 25%] ████░░░░░░░░░░░  cyber-attack-encyclopedia  60+ topics · OWASP · MITRE ATT&CK
-> [○    ] ░░░░░░░░░░░░░░░  research-paper-01         Sinhala/Tamil phishing dataset
-> [○    ] ░░░░░░░░░░░░░░░  research-paper-02         LLM injection taxonomy · IEEE/arXiv
-> ```
+ML-powered phishing detection trained on **5,172 real emails**
+
+<img src="https://img.shields.io/badge/Accuracy-97.20%25-success?style=flat-square" />
+
+Flask REST API returns predictions with confidence scores and
+plain-English explanations of suspicious indicators.
+
+<kbd>Python</kbd> <kbd>scikit-learn</kbd> <kbd>Flask</kbd> <kbd>pandas</kbd>
+
+<a href="https://github.com/chamika-r/phishing-detector">→ View Project</a>
+
+</td>
+<td width="50%" valign="top">
+<h3>📡 Network Packet Analyzer</h3>
+
+Real-time traffic analyzer detecting **port scans** and
+**ARP spoofing** as they happen
+
+<img src="https://img.shields.io/badge/Refresh-0.5s-success?style=flat-square" />
+
+Live terminal dashboard built with Rich — captures, analyzes,
+and alerts on suspicious network activity.
+
+<kbd>Python</kbd> <kbd>Scapy</kbd> <kbd>Rich</kbd>
+
+<a href="https://github.com/chamika-r/network-analyzer">→ View Project</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🔍 Web Vulnerability Scanner</h3>
+
+OWASP Top 10 scanner — found **9 real vulnerabilities** on DVWA
+
+<img src="https://img.shields.io/badge/Critical-SQL%20Injection%20Found-critical?style=flat-square&color=B71C1C" />
+
+Generates professional PDF penetration test reports with
+severity ratings and remediation guidance.
+
+<kbd>Python</kbd> <kbd>BeautifulSoup</kbd> <kbd>Click</kbd> <kbd>ReportLab</kbd>
+
+<a href="https://github.com/chamika-r/web-vulnerability-scanner">→ View Project</a>
+
+</td>
+<td width="50%" valign="top">
+<h3>🚀 CVE Intelligence Dashboard</h3>
+
+**Live** real-time dashboard pulling data from the NIST NVD
+
+<img src="https://img.shields.io/badge/Status-Live-00ffe5?style=flat-square" />
+
+Tracks CVEs published in the last 24 hours with severity
+filtering, trend charts, and searchable database.
+
+<kbd>Python</kbd> <kbd>Flask</kbd> <kbd>SQLite</kbd> <kbd>Chart.js</kbd>
+
+<a href="https://github.com/chamika-r/cve-dashboard">→ View Project</a> · <a href="https://cve-dashboard-pup2.onrender.com">→ Live Demo</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>📧 Email Authentication Analyzer</h3>
+
+Detects **Business Email Compromise** attacks from raw .eml files
+
+<img src="https://img.shields.io/badge/Risk%20Score-0--100-blue?style=flat-square" />
+
+Analyzes SPF, DKIM, DMARC via live DNS lookups. Detects
+look-alike domains (paypa1.com → paypal.com) using
+Levenshtein distance. CLI and web UI.
+
+<kbd>Python</kbd> <kbd>dnspython</kbd> <kbd>Flask</kbd>
+
+<a href="https://github.com/chamika-r/email-auth-analyzer">→ View Project</a>
+
+</td>
+<td width="50%" valign="top">
+<h3>🔎 Dependency Vulnerability Scanner</h3>
+
+Scans Python and Node.js deps against the **Google OSV database**
+
+<img src="https://img.shields.io/badge/Found-80%20CVEs%20in%205%20packages-critical?style=flat-square&color=B71C1C" />
+
+The same database powering GitHub Dependabot. Shows fix
+versions, generates PDF reports. Supports requirements.txt
+and package.json.
+
+<kbd>Python</kbd> <kbd>OSV API</kbd> <kbd>Flask</kbd> <kbd>ReportLab</kbd>
+
+<a href="https://github.com/chamika-r/dependency-scanner">→ View Project</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>📋 SBOM Generator + Scanner</h3>
+
+Generates **CycloneDX 1.4** Software Bill of Materials with Package URLs
+
+<img src="https://img.shields.io/badge/Standard-CycloneDX%201.4-00ffe5?style=flat-square" />
+
+Satisfies US EO 14028 and EU Cyber Resilience Act 2024
+requirements. Walks project directories, generates formal SBOMs,
+scans against OSV, exports SBOM JSON.
+
+<kbd>Python</kbd> <kbd>CycloneDX</kbd> <kbd>OSV API</kbd> <kbd>Flask</kbd>
+
+<a href="https://github.com/chamika-r/sbom-scanner">→ View Project</a>
+
+</td>
+<td width="50%" valign="top">
+<h3>🔐 Digital Security Toolkit</h3>
+
+Two privacy tools — **password breach check** and **metadata stripper**
+
+<img src="https://img.shields.io/badge/Privacy-k--anonymity-success?style=flat-square" />
+
+Password breach checker uses HIBP k-anonymity — only a 5-char
+SHA-1 prefix is sent, password never leaves the device. Image
+metadata stripper removes GPS, device info, timestamps from photos.
+
+<kbd>Python</kbd> <kbd>HIBP API</kbd> <kbd>Pillow</kbd> <kbd>Flask</kbd>
+
+<a href="https://github.com/chamika-r/digital-security-toolkit">→ View Project</a>
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -104,31 +295,84 @@ class Chamika:
 
 <br>
 
-## 🧠 Skills & Tools
-
-<br>
+## 🧠 Skills
 
 <div align="center">
 
-**Security**
+**Network Security**
+![](https://progress-bar.dev/85/?title=Packet%20Analysis&width=300&color=00ffe5)
+![](https://progress-bar.dev/75/?title=ARP%2FPort%20Scan%20Detection&width=300&color=00ffe5)
 
-![OWASP](https://img.shields.io/badge/OWASP_Top_10-C8102E?style=for-the-badge)
-![MITRE](https://img.shields.io/badge/MITRE_ATT%26CK-E55B4D?style=for-the-badge)
-![Pentest](https://img.shields.io/badge/Penetration_Testing-FF4075?style=for-the-badge)
-![BEC](https://img.shields.io/badge/BEC_Detection-E3B341?style=for-the-badge)
-![SBOM](https://img.shields.io/badge/CycloneDX_SBOM-00BCD4?style=for-the-badge)
-![Threat Intel](https://img.shields.io/badge/Threat_Intelligence-BC8CFF?style=for-the-badge)
+**Web Application Security**
+![](https://progress-bar.dev/80/?title=OWASP%20Top%2010&width=300&color=ff8c00)
+![](https://progress-bar.dev/75/?title=Penetration%20Testing&width=300&color=ff8c00)
 
-**Tools**
+**Security Engineering**
+![](https://progress-bar.dev/78/?title=BEC%20%2F%20Email%20Security&width=300&color=00ffe5)
+![](https://progress-bar.dev/80/?title=Supply%20Chain%20Security%20%2F%20SBOM&width=300&color=00ffe5)
 
-<img src="https://skillicons.dev/icons?i=python,flask,linux,git,docker,github,mysql,vscode&theme=dark" />
+**Machine Learning for Security**
+![](https://progress-bar.dev/75/?title=Model%20Training&width=300&color=ff3e6c)
+![](https://progress-bar.dev/70/?title=Feature%20Engineering&width=300&color=ff3e6c)
 
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-214478?style=flat-square)
-![Scapy](https://img.shields.io/badge/Scapy-00bcd4?style=flat-square)
-![SQLMap](https://img.shields.io/badge/SQLMap-ff4075?style=flat-square)
-![Kali](https://img.shields.io/badge/Kali_Linux-268BEE?style=flat-square&logo=kalilinux&logoColor=white)
-![Burp](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+**Tools & DevOps**
+![](https://progress-bar.dev/80/?title=Git%2FGitHub&width=300&color=00ff88)
+![](https://progress-bar.dev/65/?title=Docker&width=300&color=00ff88)
+
+</div>
+
+<br>
+
+---
+
+<br>
+
+## 🧰 Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+<br>
+
+<table>
+<tr>
+<td width="25%" valign="top" align="center">
+
+🔐<br><b>Security</b>
+
+<sub>Scapy · OWASP Top 10<br>BEC Detection · SBOM<br>MITRE ATT&CK · OSV · HIBP</sub>
+
+</td>
+<td width="25%" valign="top" align="center">
+
+🤖<br><b>ML / Data</b>
+
+<sub>scikit-learn · pandas<br>numpy<br>Logistic Regression</sub>
+
+</td>
+<td width="25%" valign="top" align="center">
+
+🌐<br><b>Web</b>
+
+<sub>Flask · BeautifulSoup<br>requests · Chart.js<br>REST APIs · CycloneDX</sub>
+
+</td>
+<td width="25%" valign="top" align="center">
+
+⚙️<br><b>DevOps</b>
+
+<sub>Git · Docker<br>Render<br>Virtual Environments</sub>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -140,20 +384,19 @@ class Chamika:
 
 ## 📊 GitHub Stats
 
-<br>
-
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00bcd4&text_color=8b949e&hide=prs,issues&rank_icon=github" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=8b949e&langs_count=6" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=chamika-r&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&icon_color=00ffe5&text_color=c8d8e8&hide=prs,issues,contribs" />
 
 <br>
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=chamika-r&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00ff88&fire=ff4075&currStreakLabel=00ff88&sideLabels=8b949e&dates=8b949e&stroke=30363d" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chamika-r&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ffe5&text_color=c8d8e8&langs_count=6" />
 
-<br>
+<br><br>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=chamika-r&theme=github-compact&hide_border=true&bg_color=0d1117&color=00ff88&line=00bcd4&point=ff4075&area=true&area_color=00ff8820" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=chamika-r&theme=tokyonight&hide_border=true&background=0D1117&ring=00ffe5&fire=00ffe5&currStreakLabel=00ffe5" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chamika-r&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00ffe5&line=00ffe5&point=ffffff" />
 
 </div>
 
@@ -163,45 +406,48 @@ class Chamika:
 
 <br>
 
-## 📚 Research & Writing
-
-<br>
+## 🎯 What I'm Working On
 
 <div align="center">
 
-| Type | Title | Status |
-|:----:|:------|:------:|
-| 📄 | **[Quantum Computing Threats to Cryptography](https://github.com/chamika-r/Quantum-Computing-Threats-to-Cryptography)**<br><sub>Shor's algorithm · Harvest Now Decrypt Later · NIST 2024 PQC standards</sub> | ![](https://img.shields.io/badge/Published-00ff88?style=flat-square) |
-| 🔍 | **[VulnApp Passive Reconnaissance Assessment](https://github.com/chamika-r/VulnApp-Passive-Reconnaissance-Assessment)**<br><sub>5 findings · unauthenticated admin panel · IDOR · OWASP Top 10 mapped</sub> | ![](https://img.shields.io/badge/Published-00ff88?style=flat-square) |
-| 📖 | **Cyber Attack Encyclopedia**<br><sub>60+ topics · Network attacks · Web vulns · Malware · Real-world breaches</sub> | ![](https://img.shields.io/badge/In%20Progress-e3b341?style=flat-square) |
-| 🔬 | **Sinhala/Tamil Phishing Detection**<br><sub>First dataset of its kind worldwide — targeting IEEE/regional conferences</sub> | ![](https://img.shields.io/badge/Planned-8b949e?style=flat-square) |
+<a href="https://github.com/chamika-r">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=900&color=00FF88&center=true&vCenter=true&width=650&lines=Building+cloud+security+and+AI+security+tools;Working+through+a+Cyber+Attack+Encyclopedia;Goal%3A+Cybersecurity+internship+abroad+2026;Ask+me+about+BEC+detection%2C+SBOMs%2C+supply+chain+security" />
+</a>
+
+</div>
+
+<br>
+
+## 📈 TryHackMe Progress
+
+<div align="center">
+
+<a href="https://tryhackme.com/p/seasonsofyjinn">
+<img src="https://img.shields.io/badge/View_Profile-TryHackMe-red?style=for-the-badge&logo=tryhackme&logoColor=white" />
+</a>
 
 </div>
 
 <br>
 
 ---
-
-<br>
 
 <div align="center">
 
 ### 💬 Let's Connect
 
-<br>
+<a href="https://github.com/chamika-r"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
-[![Gmail](https://img.shields.io/badge/chamikaranaweera30@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chamikaranaweera30@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/chamikaranaweera)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/seasonsofyjinn)
+<br><br>
 
-<br>
-
-> *"Don't just study attacks — build the tools that detect them."*
+*"Security is not a product, it's a process."* — Bruce Schneier
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=chamika-r&style=flat-square&color=00ff88&label=profile+views)
+![Profile Views](https://komarev.com/ghpvc/?username=chamika-r&style=flat-square&color=00ffe5&label=Profile+Views)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff8815,100:0d1117&height=100&section=footer"/>
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffe5,100:006064&height=100&section=footer" />
 
 </div>
