@@ -22,7 +22,7 @@
 
 <br>
 
-- **Who:** cybersecurity undergraduate in Sri Lanka, looking for an **internship abroad in 2026**.
+- **Who:** cybersecurity undergraduate in Sri Lanka, looking for an **internships**.
 - **Proof of work:** 8 security tools built end to end and 1 deployed live. A phishing model at **97.2%** accuracy, **9 real vulnerabilities** found on DVWA (one CRITICAL SQL injection), **80 CVEs** surfaced across 5 packages.
 - **Where I'm strongest:** detection tooling, web app testing, email / BEC security, software supply chain (OSV, SBOM), ML for security.
 - **Reach me:** [LinkedIn](https://www.linkedin.com/in/chamikaranaweera/) or [chamikaranaweera30@gmail.com](mailto:chamikaranaweera30@gmail.com).
