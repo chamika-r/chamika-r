@@ -40,7 +40,7 @@ role         Cybersecurity undergraduate
 location     Sri Lanka
 focus        network security · web app security · threat intelligence
 philosophy   Don't just study attacks - build the tools that detect them.
-goal         cybersecurity internship abroad (2026)
+goal         cybersecurity internships
 status       [ONLINE] shipping tools, breaking labs, learning in public
 ```
 
