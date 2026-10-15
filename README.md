@@ -4,10 +4,10 @@
 
 <br>
 
-<a href="https://tryhackme.com/p/seasonsofyjinn"><img src="https://img.shields.io/badge/TryHackMe-seasonsofyjinn-c11111?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" /></a>
-<a href="https://cve-dashboard-pup2.onrender.com"><img src="https://img.shields.io/badge/LIVE-CVE_Dashboard-00ffe5?style=for-the-badge&logo=render&logoColor=black" alt="Live CVE dashboard" /></a>
-<a href="https://www.linkedin.com/in/chamikaranaweera/"><img src="https://img.shields.io/badge/LinkedIn-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:chamikaranaweera30@gmail.com"><img src="https://img.shields.io/badge/Email-say_hello-181717?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/chamikaranaweera/"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn: /in/chamikaranaweera" /></a>
+<a href="mailto:chamikaranaweera30@gmail.com"><img src="assets/btn-email.svg" height="44" alt="Email: chamikaranaweera30@gmail.com" /></a>
+<a href="https://tryhackme.com/p/seasonsofyjinn"><img src="assets/btn-thm.svg" height="44" alt="TryHackMe: seasonsofyjinn" /></a>
+<a href="https://cve-dashboard-pup2.onrender.com"><img src="assets/btn-live.svg" height="44" alt="Live demo: CVE dashboard" /></a>
 
 <br><br>
 
@@ -17,7 +17,21 @@
 
 <br>
 
-## `~/whoami`
+<details open>
+<summary><b>Skimming? The 20-second version</b></summary>
+
+<br>
+
+- **Who:** cybersecurity undergraduate in Sri Lanka, looking for an **internship abroad in 2026**.
+- **Proof of work:** 8 security tools built end to end and 1 deployed live. A phishing model at **97.2%** accuracy, **9 real vulnerabilities** found on DVWA (one CRITICAL SQL injection), **80 CVEs** surfaced across 5 packages.
+- **Where I'm strongest:** detection tooling, web app testing, email / BEC security, software supply chain (OSV, SBOM), ML for security.
+- **Reach me:** [LinkedIn](https://www.linkedin.com/in/chamikaranaweera/) or [chamikaranaweera30@gmail.com](mailto:chamikaranaweera30@gmail.com).
+
+</details>
+
+<br>
+
+<h2><img src="assets/head-01-whoami.svg" width="100%" alt="01 whoami: who is this" /></h2>
 
 ```console
 chamika@sec-lab:~$ cat whoami.txt
@@ -31,10 +45,6 @@ status       [ONLINE] shipping tools, breaking labs, learning in public
 ```
 
 I learn security by building the tools defenders use: a phishing classifier, a packet analyzer, a web scanner, a live CVE feed, supply-chain scanners. Then I point them at real targets (labs, real datasets, real vulnerability databases) and see what breaks.
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## `~/git log --graph` — how I got here
 
 ```console
 chamika@sec-lab:~$ git log --oneline --graph
@@ -50,126 +60,18 @@ chamika@sec-lab:~$ git log --oneline --graph
 * 0000000  init                       curiosity
 ```
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<br>
 
-## `~/live` — running in production right now
+<h2><img src="assets/head-02-kill-chain.svg" width="100%" alt="02 kill-chain: what I build, and where" /></h2>
 
 <div align="center">
-
-### CVE Intelligence Dashboard
-
-**Real-time vulnerability intelligence from the NIST National Vulnerability Database.**
-Shows CVEs published in the last 24 hours, with severity filtering, trend charts and a searchable history.
-
-<a href="https://cve-dashboard-pup2.onrender.com"><img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-00ffe5?style=for-the-badge&labelColor=006064" alt="Open the live demo" /></a>
-&nbsp;
-<a href="https://github.com/chamika-r/cve-dashboard"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github" alt="Source code" /></a>
-
-<sub>Free hosting: the first load can take ~30 seconds to wake the server up.</sub>
-
-`Python` `Flask` `SQLite` `Chart.js` `Render`
-
+<img src="assets/killchain.svg" width="100%" alt="Attack lifecycle map. Recon: network-analyzer. Weaponize: cve-dashboard. Delivery: phishing-detector and email-auth-analyzer. Exploit: web-vulnerability-scanner. Install: dependency-scanner and sbom-scanner. C2: next on my list, cloud and AI security tools. Objectives: digital-security-toolkit." />
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## `~/case-files` — 8 tools, each built to answer a real threat
-
-<sub>Click a case to open it. Every case follows the same shape: the threat, what I built, and what came out of it.</sub>
-
 <details>
-<summary><b>CASE 001</b> &nbsp;·&nbsp; Phishing Email Detector &nbsp;·&nbsp; <code>97.20% accuracy</code></summary>
+<summary><b>Receipts</b> - every skill, linked to the project that proves it</summary>
 
-- **Threat:** Phishing is still the front door for most intrusions, and users can't tell why a message looks wrong.
-- **Built:** A Logistic Regression model trained on **5,172 real emails**, wrapped in a Flask REST API. Every prediction comes back with a confidence score and a plain-English explanation of the suspicious indicators.
-- **Result:** 97.20% accuracy.
-
-`Python` `scikit-learn` `Flask` `pandas` &nbsp;→&nbsp; [**Repository**](https://github.com/chamika-r/phishing-detector)
-
-</details>
-
-<details>
-<summary><b>CASE 002</b> &nbsp;·&nbsp; Network Packet Analyzer &nbsp;·&nbsp; <code>port scans + ARP spoofing, live</code></summary>
-
-- **Threat:** Recon and man-in-the-middle attacks leave fingerprints on the wire long before anything else breaks.
-- **Built:** A real-time analyzer that captures live packets with Scapy and detects **port scanning** and **ARP spoofing** as they happen, shown in a Rich terminal dashboard that refreshes every 0.5 seconds.
-- **Result:** Live alerts on suspicious network activity, straight from the wire.
-
-`Python` `Scapy` `Rich` &nbsp;→&nbsp; [**Repository**](https://github.com/chamika-r/network-analyzer)
-
-</details>
-
-<details>
-<summary><b>CASE 003</b> &nbsp;·&nbsp; Web Vulnerability Scanner &nbsp;·&nbsp; <code>9 vulns found · 1 CRITICAL</code></summary>
-
-- **Threat:** The OWASP Top 10 classes of bugs that keep showing up in real web apps.
-- **Built:** A scanner that tests for OWASP Top 10 vulnerabilities and produces a professional PDF penetration-test report with severity ratings and remediation guidance.
-- **Result:** Pointed at DVWA, it found **9 real vulnerabilities**, including a **CRITICAL SQL injection**.
-
-`Python` `BeautifulSoup` `Click` `ReportLab` &nbsp;→&nbsp; [**Repository**](https://github.com/chamika-r/web-vulnerability-scanner)
-
-</details>
-
-<details open>
-<summary><b>CASE 004</b> &nbsp;·&nbsp; CVE Intelligence Dashboard &nbsp;·&nbsp; <code>LIVE</code></summary>
-
-- **Threat:** New vulnerabilities are published every day and nobody has time to read the feed.
-- **Built:** A dashboard that pulls data from the NIST NVD in real time, stores it in SQLite, and presents CVEs from the last 24 hours with severity filters, trend charts and search.
-- **Result:** Deployed and **running live**: [open it](https://cve-dashboard-pup2.onrender.com).
-
-`Python` `Flask` `SQLite` `Chart.js` `Render` &nbsp;→&nbsp; [**Repository**](https://github.com/chamika-r/cve-dashboard) · [**Live demo**](https://cve-dashboard-pup2.onrender.com)
-
-</details>
-
-<details>
-<summary><b>CASE 005</b> &nbsp;·&nbsp; Email Authentication Analyzer &nbsp;·&nbsp; <code>BEC risk score 0-100</code></summary>
-
-- **Threat:** Business Email Compromise: spoofed senders and look-alike domains (`paypa1.com` posing as `paypal.com`).
-- **Built:** A tool that takes a raw `.eml` file, checks **SPF, DKIM and DMARC** with live DNS lookups, detects look-alike domains using Levenshtein distance, and combines everything into a 0-100 risk score. Available as a CLI and a web UI.
-- **Result:** A single, explainable verdict for a suspicious email.
-
-`Python` `dnspython` `Flask` &nbsp;→&nbsp; [**Repository**](https://github.com/chamika-r/email-auth-analyzer)
-
-</details>
-
-<details>
-<summary><b>CASE 006</b> &nbsp;·&nbsp; Dependency Vulnerability Scanner &nbsp;·&nbsp; <code>80 CVEs in 5 packages</code></summary>
-
-- **Threat:** Most of the code in a project is code somebody else wrote, and it ages badly.
-- **Built:** A scanner for Python (`requirements.txt`) and Node.js (`package.json`) dependencies that checks them against the **Google OSV database**, the same data behind GitHub Dependabot. It reports fix versions and generates PDF reports.
-- **Result:** 80 CVEs surfaced across 5 packages in testing.
-
-`Python` `OSV API` `Flask` `ReportLab` &nbsp;→&nbsp; [**Repository**](https://github.com/chamika-r/dependency-scanner)
-
-</details>
-
-<details>
-<summary><b>CASE 007</b> &nbsp;·&nbsp; SBOM Generator + Scanner &nbsp;·&nbsp; <code>CycloneDX 1.4</code></summary>
-
-- **Threat:** Software supply-chain attacks, and regulators now asking vendors to prove what is inside their software.
-- **Built:** A generator that walks a project directory and produces a formal **CycloneDX 1.4** Software Bill of Materials with Package URLs, then cross-references every component against OSV and exports the SBOM as JSON. Built around the SBOM expectations of US Executive Order 14028 and the EU Cyber Resilience Act.
-- **Result:** From source tree to standards-based SBOM to vulnerability report in one run.
-
-`Python` `CycloneDX` `OSV API` `Flask` &nbsp;→&nbsp; [**Repository**](https://github.com/chamika-r/sbom-scanner)
-
-</details>
-
-<details>
-<summary><b>CASE 008</b> &nbsp;·&nbsp; Digital Security Toolkit &nbsp;·&nbsp; <code>privacy by design</code></summary>
-
-- **Threat:** Leaked passwords, and photos that quietly carry your GPS location and device details.
-- **Built:** Two privacy tools. A **password breach checker** using HIBP k-anonymity, where only a 5-character SHA-1 prefix is ever sent and the password never leaves the device. And an **image metadata stripper** that removes GPS, device info and timestamps from photos.
-- **Result:** A breach check where the password itself never leaves the device.
-
-`Python` `HIBP API` `Pillow` `Flask` &nbsp;→&nbsp; [**Repository**](https://github.com/chamika-r/digital-security-toolkit)
-
-</details>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## `~/skills` — every claim has a receipt
-
-<sub>No self-rated progress bars. Each skill links to the project that proves it.</sub>
+<br>
 
 | Domain | What I can do | Receipt |
 |:--|:--|:--|
@@ -181,25 +83,73 @@ Shows CVEs published in the last 24 hours, with severity filtering, trend charts
 | **ML for security** | Feature engineering and model training for detection, explainable outputs | [phishing-detector](https://github.com/chamika-r/phishing-detector) |
 | **Privacy engineering** | k-anonymity protocols, metadata removal | [digital-security-toolkit](https://github.com/chamika-r/digital-security-toolkit) |
 
+`Python` `Flask` `scikit-learn` `Scapy` `SQLite` `Docker` `Git` `Linux` `OSV` `HIBP` `CycloneDX` `MITRE ATT&CK`
+
+</details>
+
+<br>
+
+<h2><img src="assets/head-03-case-files.svg" width="100%" alt="03 case-files: 8 tools, 8 threats" /></h2>
+
+<p align="center">
+<a href="https://github.com/chamika-r/phishing-detector"><img src="assets/case-001.svg" width="49%" alt="Case 001: Phishing Email Detector, 97.2% accuracy" /></a>
+<a href="https://github.com/chamika-r/network-analyzer"><img src="assets/case-002.svg" width="49%" alt="Case 002: Network Packet Analyzer, 0.5 second live refresh" /></a>
+<a href="https://github.com/chamika-r/web-vulnerability-scanner"><img src="assets/case-003.svg" width="49%" alt="Case 003: Web Vulnerability Scanner, 9 vulnerabilities, 1 critical" /></a>
+<a href="https://github.com/chamika-r/cve-dashboard"><img src="assets/case-004.svg" width="49%" alt="Case 004: CVE Intelligence Dashboard, live" /></a>
+<a href="https://github.com/chamika-r/email-auth-analyzer"><img src="assets/case-005.svg" width="49%" alt="Case 005: Email Authentication Analyzer, BEC risk score" /></a>
+<a href="https://github.com/chamika-r/dependency-scanner"><img src="assets/case-006.svg" width="49%" alt="Case 006: Dependency Scanner, 80 CVEs in 5 packages" /></a>
+<a href="https://github.com/chamika-r/sbom-scanner"><img src="assets/case-007.svg" width="49%" alt="Case 007: SBOM Generator and Scanner, CycloneDX 1.4" /></a>
+<a href="https://github.com/chamika-r/digital-security-toolkit"><img src="assets/case-008.svg" width="49%" alt="Case 008: Digital Security Toolkit, k-anonymity" /></a>
+</p>
+
+<details>
+<summary><b>Full case notes</b> - the threat, what I built, what came out of it</summary>
+
+<br>
+
+**001 · Phishing Email Detector** — *Threat:* phishing is still the front door for most intrusions, and users can't tell why a message looks wrong. *Built:* a Logistic Regression model trained on **5,172 real emails**, behind a Flask REST API that returns a confidence score and a plain-English explanation of the suspicious indicators. *Result:* **97.20%** accuracy.
+
+**002 · Network Packet Analyzer** — *Threat:* recon and man-in-the-middle attacks leave fingerprints on the wire long before anything else breaks. *Built:* a real-time analyzer that captures live packets with Scapy and detects **port scanning** and **ARP spoofing** as they happen, in a Rich terminal dashboard that refreshes every 0.5 seconds. *Result:* live alerts straight from the wire.
+
+**003 · Web Vulnerability Scanner** — *Threat:* the OWASP Top 10 classes of bugs that keep showing up in real web apps. *Built:* a scanner that tests for them and writes a professional PDF penetration-test report with severity ratings and remediation guidance. *Result:* pointed at DVWA, it found **9 real vulnerabilities**, including a **CRITICAL SQL injection**.
+
+**004 · CVE Intelligence Dashboard** — *Threat:* new vulnerabilities are published every day and nobody has time to read the feed. *Built:* a dashboard that pulls the NIST NVD in real time into SQLite and shows the last 24 hours of CVEs with severity filters, trend charts and search. *Result:* deployed and **running live**: [open it](https://cve-dashboard-pup2.onrender.com).
+
+**005 · Email Authentication Analyzer** — *Threat:* Business Email Compromise, meaning spoofed senders and look-alike domains (`paypa1.com` posing as `paypal.com`). *Built:* a tool that takes a raw `.eml`, checks **SPF, DKIM and DMARC** with live DNS lookups, catches look-alike domains with Levenshtein distance, and combines everything into a 0-100 risk score, as a CLI and a web UI. *Result:* one explainable verdict per suspicious email.
+
+**006 · Dependency Vulnerability Scanner** — *Threat:* most of the code in a project is code somebody else wrote, and it ages badly. *Built:* a scanner for `requirements.txt` and `package.json` that checks the **Google OSV database** (the data behind GitHub Dependabot), reports fix versions and generates PDF reports. *Result:* **80 CVEs** surfaced across 5 packages in testing.
+
+**007 · SBOM Generator + Scanner** — *Threat:* software supply-chain attacks, and regulators now asking vendors to prove what is inside their software. *Built:* a generator that walks a project and produces a formal **CycloneDX 1.4** SBOM with Package URLs, cross-references every component against OSV, and exports the SBOM as JSON. Built around the SBOM expectations of US Executive Order 14028 and the EU Cyber Resilience Act. *Result:* source tree to standards-based SBOM to vulnerability report in one run.
+
+**008 · Digital Security Toolkit** — *Threat:* leaked passwords, and photos that quietly carry your GPS location and device details. *Built:* a **password breach checker** using HIBP k-anonymity, where only a 5-character SHA-1 prefix is sent and the password never leaves the device, and an **image metadata stripper** that removes GPS, device info and timestamps. *Result:* a breach check where the password itself never leaves the device.
+
+</details>
+
+<br>
+
+<h2><img src="assets/head-04-live.svg" width="100%" alt="04 live: running in production" /></h2>
+
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+### CVE Intelligence Dashboard
 
-<sub>Scapy · OWASP Top 10 · MITRE ATT&CK · OSV · HIBP · CycloneDX · pandas · numpy · BeautifulSoup · Chart.js · Render</sub>
+**Real-time vulnerability intelligence from the NIST National Vulnerability Database.**
+CVEs from the last 24 hours, with severity filtering, trend charts and a searchable history.
+
+<a href="https://cve-dashboard-pup2.onrender.com"><img src="assets/btn-live.svg" height="44" alt="Open the live demo" /></a>
+<a href="https://github.com/chamika-r/cve-dashboard"><img src="assets/btn-source.svg" height="44" alt="Source code" /></a>
+
+<sub>Free hosting: the first load can take ~30 seconds to wake the server up.</sub>
+
+`Python` `Flask` `SQLite` `Chart.js` `Render`
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<br>
 
 <!-- ================= CTF SECTION ================= -->
 
-## `~/ctf` — can you breach this profile?
+<h2><img src="assets/head-05-ctf.svg" width="100%" alt="05 ctf: can you breach this profile?" /></h2>
 
 <div align="center">
 <img src="assets/ctf.svg" width="100%" alt="Capture the flag challenge: Breach the profile. Stage 0 Signal, Stage 1 Source, Stage 2 Logs, Stage 3 Claim your flag." />
@@ -239,24 +189,29 @@ Tm90IGV2ZXJ5dGhpbmcgb24gdGhpcyBwYWdlIGlzIHJlbmRlcmVkLiBSZWFkIHRoZSByYXcgc291cmNl
 Your flag never has to appear in public. Instead, submit a **salted proof of solve**: the SHA-256 of your flag joined to your (lowercase) GitHub username.
 
 ```bash
-printf '%s' 'FLAG{your_flag_here}:your-github-username' | sha256sum
+printf '%s' 'FLAG{your_flag_here}:your-github-username' | shasum -a 256
 ```
+
+`shasum -a 256` works on macOS and Linux (`sha256sum` also works on Linux). Copy only the 64-character hash, not the trailing `-`.
 
 Then [**open a claim issue**](https://github.com/chamika-r/chamika-r/issues/new?title=%5BCTF%5D%20flag%20claim&body=proof%3A%20PASTE_YOUR_SHA256_HERE) with the hash in the body. A GitHub Action checks it, and if it's right you're labelled **pwned**, closed out, and listed on the wall of fame. The first solver gets **first blood**.
 
 <div align="center">
 
-<a href="https://github.com/chamika-r/chamika-r/issues?q=is%3Aissue+label%3Apwned"><img src="https://img.shields.io/badge/WALL_OF_FAME-view_solvers-ff3e6c?style=for-the-badge" alt="Wall of fame" /></a>
-&nbsp;
-<a href="https://github.com/chamika-r/chamika-r/issues/new?title=%5BCTF%5D%20flag%20claim&body=proof%3A%20PASTE_YOUR_SHA256_HERE"><img src="https://img.shields.io/badge/CLAIM-submit_proof-00ffe5?style=for-the-badge&labelColor=006064" alt="Submit a claim" /></a>
+<a href="https://github.com/chamika-r/chamika-r/issues?q=is%3Aissue+label%3Apwned"><img src="assets/btn-wall.svg" height="44" alt="Wall of fame: view solvers" /></a>
+<a href="https://github.com/chamika-r/chamika-r/issues/new?title=%5BCTF%5D%20flag%20claim&body=proof%3A%20PASTE_YOUR_SHA256_HERE"><img src="assets/btn-claim.svg" height="44" alt="Claim your flag: submit proof" /></a>
 
 <sub>Bonus: the workflow that checks claims is public in <code>.github/workflows</code>. Untrusted issue text is passed through environment variables, never interpolated into the shell. Read it, and try to break it responsibly.</sub>
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<br>
 
-## `~/now`
+<h2><img src="assets/head-06-pulse.svg" width="100%" alt="06 pulse: live telemetry" /></h2>
+
+<div align="center">
+<img src="assets/telemetry.svg" width="100%" alt="GitHub telemetry: repositories, stars, followers, contributions, activity over the last 26 weeks, and top languages. Redrawn daily by a GitHub Action." />
+</div>
 
 ```console
 chamika@sec-lab:~$ cat now.txt
@@ -266,15 +221,26 @@ chamika@sec-lab:~$ cat now.txt
 [ask me]     BEC detection · SBOMs · supply-chain security
 ```
 
+<br>
+
+<h2><img src="assets/head-07-ping.svg" width="100%" alt="07 ping: let's talk" /></h2>
+
 <div align="center">
+
+Hiring for an internship, or want to compare notes on detection and supply-chain security? Say hello.
+
+<a href="https://www.linkedin.com/in/chamikaranaweera/"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn" /></a>
+<a href="mailto:chamikaranaweera30@gmail.com"><img src="assets/btn-email.svg" height="44" alt="Email" /></a>
+<a href="https://tryhackme.com/p/seasonsofyjinn"><img src="assets/btn-thm.svg" height="44" alt="TryHackMe" /></a>
+
+<br><br>
+
+*"Security is not a product, it's a process."* - Bruce Schneier
 
 <br>
 
-```console
-chamika@sec-lab:~$ fortune
-"Security is not a product, it's a process." - Bruce Schneier
-```
+<img src="assets/footer.svg" width="100%" alt="Terminal sign-off: keep building, keep breaking, keep learning." />
 
-<sub>No third-party stat widgets or trackers here. Every graphic in this profile is a hand-written SVG in <a href="assets"><code>/assets</code></a>.</sub>
+<sub>No third-party stat widgets or trackers. Every graphic here is a hand-written SVG in <a href="assets"><code>/assets</code></a>, and the pulse chart is drawn by <a href="scripts/telemetry.py"><code>scripts/telemetry.py</code></a>.</sub>
 
 </div>

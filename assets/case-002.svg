@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 152" width="440" height="152" role="img" aria-label="Case 002: Network Packet Analyzer. 0.5s live refresh.">
+<style>
+  text { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+  .bar { animation: s 4s ease-in-out infinite; }
+  @keyframes s { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><pattern id="g" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#00ffe5" stroke-opacity=".05"/></pattern></defs>
+<rect x="1" y="1" width="438" height="150" rx="12" fill="#0a1017" stroke="#00ffe5" stroke-opacity=".4"/>
+<rect x="1" y="1" width="438" height="150" rx="12" fill="url(#g)"/>
+<rect class="bar" x="1" y="14" width="4" height="124" rx="2" fill="#00ffe5"/>
+<text x="22" y="30" font-size="10.5" letter-spacing="2.5" fill="#00ffe5">CASE 002</text>
+<text x="22" y="56" font-size="15" font-weight="700" fill="#ffffff">Network Packet Analyzer</text>
+<text x="22" y="78" font-size="11" fill="#8aa0b4">Recon leaves fingerprints on the wire.</text>
+<line x1="22" y1="96" x2="418" y2="96" stroke="#00ffe5" stroke-opacity=".18"/>
+<text x="22" y="120" font-size="10" fill="#3b5563">Python  Scapy  Rich</text>
+<text x="418" y="52" font-size="30" font-weight="800" text-anchor="end" fill="#00ffe5">0.5s</text>
+<text x="418" y="72" font-size="10" text-anchor="end" fill="#8aa0b4">live refresh</text>
+<text x="418" y="138" font-size="10" letter-spacing="1" text-anchor="end" fill="#00ffe5" fill-opacity=".8">OPEN REPO &#8594;</text>
+</svg>

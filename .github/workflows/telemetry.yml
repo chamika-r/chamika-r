@@ -1,0 +1,38 @@
+name: Telemetry
+
+# Redraws assets/telemetry.svg once a day from your own public GitHub data.
+# Runs scripts/telemetry.py (standard library only). No third-party actions, no external services.
+# First run: Actions tab -> Telemetry -> Run workflow.
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # only to commit the refreshed SVG
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render telemetry.svg
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/telemetry.py --user "$OWNER" --out assets/telemetry.svg
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets/telemetry.svg; then
+            echo "telemetry unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/telemetry.svg
+          git commit -m "chore: refresh telemetry"
+          git push

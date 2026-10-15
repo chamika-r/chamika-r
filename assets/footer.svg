@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 96" width="900" height="96" role="img" aria-label="Terminal sign-off: keep building, keep breaking, keep learning.">
+<style>
+  text { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+  .cur { animation: b 1s steps(1) infinite; }
+  @keyframes b { 50% { opacity: 0; } }
+  .glint { animation: g 6s linear infinite; }
+  @keyframes g { from { transform: translateX(-200px); } to { transform: translateX(900px); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+  <linearGradient id="gl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00ffe5" stop-opacity="0"/><stop offset="1" stop-color="#00ffe5"/></linearGradient>
+  <clipPath id="c"><rect x="10" y="88" width="880" height="3"/></clipPath>
+</defs>
+<rect x="1" y="1" width="898" height="94" rx="12" fill="#0a1017" stroke="#00ffe5" stroke-opacity=".3"/>
+<text x="28" y="38" font-size="14" fill="#00ffe5">chamika@sec-lab:~$ <tspan fill="#00ff88">echo "keep building, keep breaking, keep learning"</tspan></text>
+<text x="28" y="62" font-size="14" fill="#c8d8e8">keep building, keep breaking, keep learning</text>
+<text x="28" y="82" font-size="14" fill="#00ffe5">chamika@sec-lab:~$ </text>
+<rect class="cur" x="190" y="69" width="9" height="15" fill="#00ffe5"/>
+<text x="872" y="82" font-size="10" letter-spacing="2" text-anchor="end" fill="#3b5563">EXIT 0</text>
+<g clip-path="url(#c)"><rect class="glint" x="0" y="87" width="200" height="3" fill="url(#gl)"/></g>
+</svg>

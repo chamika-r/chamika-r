@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 152" width="440" height="152" role="img" aria-label="Case 007: SBOM Generator + Scanner. 1.4 CycloneDX, OSV-scanned.">
+<style>
+  text { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+  .bar { animation: s 4s ease-in-out infinite; }
+  @keyframes s { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><pattern id="g" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#ff8c00" stroke-opacity=".05"/></pattern></defs>
+<rect x="1" y="1" width="438" height="150" rx="12" fill="#0a1017" stroke="#ff8c00" stroke-opacity=".4"/>
+<rect x="1" y="1" width="438" height="150" rx="12" fill="url(#g)"/>
+<rect class="bar" x="1" y="14" width="4" height="124" rx="2" fill="#ff8c00"/>
+<text x="22" y="30" font-size="10.5" letter-spacing="2.5" fill="#ff8c00">CASE 007</text>
+<text x="22" y="56" font-size="15" font-weight="700" fill="#ffffff">SBOM Generator + Scanner</text>
+<text x="22" y="78" font-size="11" fill="#8aa0b4">Prove what is inside your software.</text>
+<line x1="22" y1="96" x2="418" y2="96" stroke="#ff8c00" stroke-opacity=".18"/>
+<text x="22" y="120" font-size="10" fill="#3b5563">Python  CycloneDX  OSV API</text>
+<text x="418" y="52" font-size="30" font-weight="800" text-anchor="end" fill="#ff8c00">1.4</text>
+<text x="418" y="72" font-size="10" text-anchor="end" fill="#8aa0b4">CycloneDX, OSV-scanned</text>
+<text x="418" y="138" font-size="10" letter-spacing="1" text-anchor="end" fill="#ff8c00" fill-opacity=".8">OPEN REPO &#8594;</text>
+</svg>
