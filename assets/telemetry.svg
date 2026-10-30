@@ -73,6 +73,6 @@
 <rect x="700" y="172" width="62.5" height="10" rx="5" fill="#ff3e6c"/>
 <text x="880" y="181" font-size="10" text-anchor="end" fill="#8aa0b4">45%</text>
 <circle class="pulse" cx="30" cy="272" r="3.5" fill="#00ff88"/>
-<text x="42" y="276" font-size="10" fill="#8aa0b4">synced 2026-10-29 UTC</text>
+<text x="42" y="276" font-size="10" fill="#8aa0b4">synced 2026-10-30 UTC</text>
 <text x="876" y="276" font-size="10" text-anchor="end" fill="#3b5563">rendered by scripts/telemetry.py</text>
 </svg>
