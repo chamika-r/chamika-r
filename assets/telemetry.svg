@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 292" width="900" height="292" role="img" aria-label="GitHub telemetry: 12 repositories, 0 stars, 0 followers, 77 contributions in the last year.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 292" width="900" height="292" role="img" aria-label="GitHub telemetry: 12 repositories, 1 stars, 0 followers, 77 contributions in the last year.">
 <title>GitHub telemetry</title>
 <style>
   text { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
@@ -20,7 +20,7 @@
   <rect x="236" y="16" width="208" height="86" rx="10" fill="#06090d" stroke="#ff8c00" stroke-opacity=".45"/>
   <rect x="236" y="16" width="208" height="3" rx="1.5" fill="#ff8c00"/>
   <text x="252" y="42" font-size="10" letter-spacing="1.5" fill="#ff8c00">STARS</text>
-  <text x="252" y="82" font-size="34" font-weight="700" fill="#ffffff">0</text>
+  <text x="252" y="82" font-size="34" font-weight="700" fill="#ffffff">1</text>
 </g>
 <g>
   <rect x="456" y="16" width="208" height="86" rx="10" fill="#06090d" stroke="#00ff88" stroke-opacity=".45"/>
@@ -73,6 +73,6 @@
 <rect x="700" y="172" width="62.5" height="10" rx="5" fill="#ff3e6c"/>
 <text x="880" y="181" font-size="10" text-anchor="end" fill="#8aa0b4">45%</text>
 <circle class="pulse" cx="30" cy="272" r="3.5" fill="#00ff88"/>
-<text x="42" y="276" font-size="10" fill="#8aa0b4">synced 2026-11-09 UTC</text>
+<text x="42" y="276" font-size="10" fill="#8aa0b4">synced 2026-11-10 UTC</text>
 <text x="876" y="276" font-size="10" text-anchor="end" fill="#3b5563">rendered by scripts/telemetry.py</text>
 </svg>
